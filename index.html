@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Team Agency Portfolio</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <nav>
+
+        <h2>Team Agency</h2>
+
+        <button id="themeBtn"
+                class="theme-btn">
+
+            Dark Mode
+
+        </button>
+
+    </nav>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="hero">
+
+        <h1>
+            Team Agency Portfolio
+        </h1>
+
+        <p>
+            Meet Our Team and Explore Our Projects
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         TEAM SECTION
+    ========================== -->
+
+    <section>
+
+        <h2 class="section-title">
+
+            Our Team
+
+        </h2>
+
+        <div class="team-container">
+
+            <!-- MEMBER 1 -->
+
+            <div class="card"
+                 onclick="openMember('member1')">
+
+                <img src="images/member1.jpg"
+                     alt="Member 1">
+
+                <div class="card-info">
+
+                    <h3>Member 1</h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 2 -->
+
+            <div class="card"
+                 onclick="openMember('member2')">
+
+                <img src="images/member2.jpg"
+                     alt="Member 2">
+
+                <div class="card-info">
+
+                    <h3>Member 2</h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 3 -->
+
+            <div class="card"
+                 onclick="openMember('member3')">
+
+                <img src="images/member3.jpg"
+                     alt="Member 3">
+
+                <div class="card-info">
+
+                    <h3>Member 3</h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 4 -->
+
+            <div class="card"
+                 onclick="openMember('member4')">
+
+                <img src="images/member4.jpg"
+                     alt="Member 4">
+
+                <div class="card-info">
+
+                    <h3>Member 4</h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 5 -->
+
+            <div class="card"
+                 onclick="openMember('member5')">
+
+                <img src="images/member5.jpg"
+                     alt="Member 5">
+
+                <div class="card-info">
+
+                    <h3>Member 5</h3>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMBER 6 -->
+
+            <div class="card"
+                 onclick="openMember('member6')">
+
+                <img src="images/member6.jpg"
+                     alt="Member 6">
+
+                <div class="card-info">
+
+                    <h3>Member 6</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+
+    <section>
+
+        <h2 class="section-title">
+
+            Projects
+
+        </h2>
+
+        <div class="project-container">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Team Agency Portfolio
+                </h3>
+
+                <p>
+                    Portfolio Website
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Interactive Quiz App
+                </h3>
+
+                <p>
+                    Quiz Application
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Expense Tracker
+                </h3>
+
+                <p>
+                    Expense Tracking Application
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Live News Feed
+                </h3>
+
+                <p>
+                    News API Project
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 5 -->
+
+            <div class="project-card">
+
+                <h3>
+                    GitHub Developer Explorer
+                </h3>
+
+                <p>
+                    GitHub API Project
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 6 -->
+
+            <div class="project-card">
+
+                <h3>
+                    Kanban Task Board
+                </h3>
+
+                <p>
+                    Task Management Board
+                </p>
+
+                <div class="project-buttons">
+
+                    <button class="visit-btn"
+                            onclick="openProject('https://google.com')">
+
+                        Live Demo
+
+                    </button>
+
+                    <button class="github-btn"
+                            onclick="openGithub('https://github.com')">
+
+                        GitHub
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT FORM
+    ========================== -->
+
+    <section>
+
+        <h2 class="section-title">
+
+            Contact Us
+
+        </h2>
+
+        <form id="contactForm">
+
+            <input type="text"
+                   id="name"
+                   placeholder="Enter Your Name">
+
+            <input type="email"
+                   id="email"
+                   placeholder="Enter Your Email">
+
+            <textarea id="message"
+                      rows="5"
+                      placeholder="Enter Your Message"></textarea>
+
+            <button type="submit">
+
+                Submit
+
+            </button>
+
+        </form>
+
+        <p id="error"></p>
+
+    </section>
+
+
+    <!-- =========================
+         MEMBER MODAL
+    ========================== -->
+
+    <div id="modal"
+         class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeBtn">
+
+                &times;
+
+            </span>
+
+            <div class="profile-layout">
+
+                <div class="left">
+
+                    <img id="modalImg"
+                         src=""
+                         alt="Profile">
+
+                </div>
+
+                <div class="right">
+
+                    <h2 id="modalName"></h2>
+
+                    <p id="modalAbout"></p>
+
+                    <p id="modalCollege"></p>
+
+                    <p id="modalDegree"></p>
+
+                    <p id="modalEmail"></p>
+
+                    <div id="modalSkills"></div>
+
+                    <div class="buttons">
+
+                        <a id="modalGithub"
+                           class="btn"
+                           target="_blank">
+
+                            GitHub
+
+                        </a>
+
+                        <a id="modalLinkedin"
+                           class="btn"
+                           target="_blank">
+
+                            LinkedIn
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Team Agency Portfolio
+
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         JS FILES
+    ========================== -->
+
+    <script src="js/data.js"></script>
+
+    <script src="js/modal.js"></script>
+
+    <script src="js/theme.js"></script>
+
+    <script src="js/contact.js"></script>
+
+    <script src="js/projects.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+```
