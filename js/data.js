@@ -22,7 +22,7 @@ const memberData = {
         email:"rudranil.majumder.sot25@pwioi.com",
         github:"https://github.com/rudranilmajumder2006-jpg",
         linkedin:"https://www.linkedin.com/in/rudranil-majumder-a10120381/",
-        image:"images/member2.jpg",
+        image:"./images/member2.jpg",
         skills:["HTML","CSS","JavaScript","SQL","Java"]
     },
 
